@@ -8,7 +8,7 @@ FROM    debian:11.6-slim
 # Image details
 LABEL   org.opencontainers.image.authors="Cloudresty" \
         org.opencontainers.image.url="https://hub.docker.com/r/cloudresty/aws-kubectl" \
-        org.opencontainers.image.source="https://github.com/cloudresty/docker-aws-kubectl" \
+        org.opencontainers.image.source="https://github.com/cloudresty/aws-kubectl" \
         org.opencontainers.image.version="1.0.0" \
         org.opencontainers.image.revision="1.0.0" \
         org.opencontainers.image.vendor="Cloudresty" \
