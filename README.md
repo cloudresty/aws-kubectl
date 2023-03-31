@@ -8,6 +8,12 @@ This repository contains a Dockerfile bundled with the following packages:
 
 &nbsp;
 
+## Docker image
+
+The Docker image can be found and pulled from Cloudresty's Docker Hub public repository available here [https://hub.docker.com/r/cloudresty/aws-kubectl](https://hub.docker.com/r/cloudresty/aws-kubectl).
+
+&nbsp;
+
 ## Usage
 
 Here is an example of how this Docker image can be used within a non-AWS Kubernetes cluster that requires access to a private AWS ECR registry. More precisely, in this example we will generate a series of resources that will help with refreshing the AWS Authentication Token. By default the AWS Authentication Token gets invalidated every 12 hours and this `AWS ECR Token Refresh CronJob` will help with generating a new token every 10 hours.
