@@ -36,7 +36,6 @@ stringData:
 # Kubernetes ConfigMap Manifest Document
 #
 
-
 apiVersion: v1
 kind: ConfigMap
 metadata:
