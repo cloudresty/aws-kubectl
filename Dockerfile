@@ -3,7 +3,7 @@
 #
 
 # Base image
-FROM    debian:11.6-slim
+FROM    debian:bullseye-20240110-slim
 
 # Image details
 LABEL   org.opencontainers.image.authors="Cloudresty" \
