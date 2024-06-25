@@ -2,9 +2,9 @@
 
 This repository contains a Dockerfile bundled with the following packages:
 
-* Debian 11.6-slim as base image
-* AWS CLI v2
-* kubectl v1.26
+* Debian 'trixie-slim' as base image
+* AWS CLI v2.17.1
+* kubectl v1.30.2
 
 &nbsp;
 
@@ -74,7 +74,7 @@ spec:
           serviceAccountName: ecr-token-refresh
           containers:
           - name: ecr-registry-helper
-            image: cloudresty/aws-kubectl:v1.0.0
+            image: cloudresty/aws-kubectl:v1.1.0
             imagePullPolicy: IfNotPresent
             envFrom:
               - secretRef:
